@@ -31,17 +31,30 @@ const Formulario = (props) => {
             <form onSubmit={aoSalvar}>
                 <h2>Preencha os dados para criar os card do usúario</h2>
 
-                <CampoText obrigatorio={true} label="Nome" placeholder="Digite seu nome"
-                    valor={nome} aoAlterado={valor => setNome(valor)} />
+                <CampoText
+                    obrigatorio={true}
+                    label="Nome" placeholder="Digite seu nome"
+                    valor={nome}
+                    aoAlterado={valor => setNome(valor)} />
 
-                <CampoText obrigatorio={true} label="Cargo" placeholder="Digite seu cargo"
-                    valor={cargo} aoAlterado={valor => setCargo(valor)} />
+                <CampoText
+                    obrigatorio={true}
+                    label="Cargo"
+                    placeholder="Digite seu cargo"
+                    valor={cargo}
+                    aoAlterado={valor => setCargo(valor)} />
 
-                <CampoText label="Imagem" placeholder="Digite o endereço da imagem"
-                    valor={imagem} aoAlterado={valor => setImagem(valor)} />
+                <CampoText
+                    label="Imagem"
+                    placeholder="Digite o endereço da imagem"
+                    valor={imagem}
+                    aoAlterado={valor => setImagem(valor)} />
 
-                <ListaSuspensa obrigatorio={true} label="Time" itens={props.times}
-                    valor={time} aoAlterado={valor => setTime(valor)} />
+                <ListaSuspensa
+                    obrigatorio={true}
+                    label="Time" itens={props.times}
+                    valor={time}
+                    aoAlterado={valor => setTime(valor)} />
 
                 <Botao>
                     Criar card

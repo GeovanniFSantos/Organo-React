@@ -28,14 +28,9 @@ function App() {
       corSecundaria: '#FDE7E8'
     },
     {
-      nome: 'Ux e Design',
+      nome: 'UX e Design',
       corPrimaria: '#DB6EBF',
       corSecundaria: '#FAE9F5'
-    },
-    {
-      nome: 'Back-End',
-      corPrimaria: '#131212',
-      corSecundaria: '#2e2b2b'
     },
     {
       nome: 'Mobile',
@@ -47,29 +42,28 @@ function App() {
       corPrimaria: '#FF8A29',
       corSecundaria: '#FFEEDF'
     }
-
   ]
 
   const [colaboradores, setColaboradores] = useState([])
 
-  const aoNovoColaboradorAdd = (colaborador) => {
+  const aoNovoColaboradorAdicionado = (colaborador) => {
+    console.log(colaborador)
     setColaboradores([...colaboradores, colaborador])
   }
 
   return (
     <div className="App">
       <Banner />
-      <Formulario times={times.map(time => time.nome)}
-        aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdd(colaborador)} />
+      <Formulario times={times.map(time => time.nome)} aoColaboradorCadastrado={colaborador => aoNovoColaboradorAdicionado(colaborador)} />
 
       {times.map(time => <Time
-        key={time.nome} nome={time.nome}
+        key={time.nome}
+        nome={time.nome}
         corPrimaria={time.corPrimaria}
         corSecundaria={time.corSecundaria}
         colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
       />)}
       <Rodape />
-
     </div>
   );
 }

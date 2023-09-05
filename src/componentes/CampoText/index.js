@@ -3,7 +3,7 @@ import './CampoText.css'
 const CampoText = (props) => {
 
     const labelModificada = `${props.label}`
-    const placeholderModificado = `${props.placeholder}`
+    const placeholderModificado = `${props.placeholder}...`
 
 
     const aoDigitado = (evento) => {
