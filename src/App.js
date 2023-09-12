@@ -212,8 +212,10 @@ function App() {
     },
   ]
 
-  function deletarColaborador() {
-    console.log('deletando colaborador');
+  const [colaboradores, setColaboradores] = useState(inicial)
+
+  function deletarColaborador(colaboradorId) {
+    setColaboradores(colaboradores.filter(colaborador => colaborador.id !== colaboradorId));
   }
 
   function mudarCor(cor, id) {
@@ -225,11 +227,9 @@ function App() {
     }))
   }
 
-  const [colaboradores, setColaboradores] = useState(inicial)
-
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    console.log(colaborador)
-    setColaboradores([...colaboradores, colaborador])
+    const novoColaborador = { ...colaborador, id: uuidv4() };
+    setColaboradores([...colaboradores, novoColaborador])
   }
 
   return (
