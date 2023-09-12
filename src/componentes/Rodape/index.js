@@ -28,7 +28,7 @@ const Rodape = () => {
         </section>
         <section>
             <p>
-                Desenvolvido por Alura.
+                Desenvolvido em react.
             </p>
         </section>
     </footer>)
