@@ -44,6 +44,7 @@ function App() {
   const inicial = [
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'JULIANA AMOASEI',
       genero: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
@@ -51,6 +52,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'DANIEL ARTINE',
       genero: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
@@ -58,6 +60,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GUILHERME LIMA',
       genero: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
@@ -65,6 +68,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GOD OF WAR',
       genero: 'God of War é uma série de jogos eletrônicos de ação-aventura',
       imagem: 'https://image.api.playstation.com/vulcan/img/rnd/202010/2217/p3pYq0QxntZQREXRVdAzmn1w.png',
@@ -72,6 +76,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GEOVANNI F SANTOS',
       genero: 'Desenvolvedor Full Stack Junior',
       imagem: 'https://github.com/GeovanniFSantos.png',
@@ -79,6 +84,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'DANIEL ARTINE',
       genero: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
@@ -86,6 +92,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GUILHERME LIMA',
       genero: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
@@ -93,6 +100,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'PAULO SILVEIRA',
       genero: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
@@ -100,6 +108,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'JULIANA AMOASEI',
       genero: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
@@ -107,6 +116,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'DANIEL ARTINE',
       genero: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
@@ -114,6 +124,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GUILHERME LIMA',
       genero: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
@@ -121,6 +132,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'PAULO SILVEIRA',
       genero: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
@@ -128,6 +140,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'JULIANA AMOASEI',
       genero: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
@@ -135,6 +148,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'DANIEL ARTINE',
       genero: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
@@ -142,6 +156,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GUILHERME LIMA',
       genero: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
@@ -149,6 +164,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'HORIZON ZERO DAWN',
       genero: 'Horizon Zero Dawn é um jogo eletrônico de RPG de ação pós-apocalíptico em um mundo aberto.',
       imagem: 'https://cdn.iset.io/assets/56293/produtos/218/8403830295-3b18499214.jpg',
@@ -156,6 +172,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'JULIANA AMOASEI',
       genero: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
@@ -163,6 +180,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'DANIEL ARTINE',
       genero: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
@@ -170,6 +188,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'THE LAST OF US',
       genero: 'Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta.',
       imagem: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFrnKGXGTmcusfWp8W42ZosoTU0155pl2CKsMw3ZiYEY74uKNt',
@@ -177,6 +196,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'PAULO SILVEIRA',
       genero: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
@@ -184,6 +204,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'JULIANA AMOASEI',
       genero: 'Desenvolvedora de software e instrutora',
       imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
@@ -191,6 +212,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'DANIEL ARTINE',
       genero: 'Engenheiro de Software na Stone Age',
       imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
@@ -198,6 +220,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'GUILHERME LIMA',
       genero: 'Desenvolvedor Python e JavaScript na Alura',
       imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
@@ -205,6 +228,7 @@ function App() {
     },
     {
       id: uuidv4(),
+      favorito: false,
       jogo: 'PAULO SILVEIRA',
       genero: 'Hipster e CEO da Alura',
       imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
@@ -236,6 +260,13 @@ function App() {
     setTimes([...times, { ...novoTime, id: uuidv4() }])
   }
 
+  function resolverFavorito(idFavorito) {
+    setColaboradores(colaboradores.map(colaborador => {
+      if (colaborador.id === idFavorito) colaborador.favorito = !colaborador.favorito;
+      return colaborador
+    }))
+  }
+
   return (
     <div className="App">
       <Banner />
@@ -247,6 +278,7 @@ function App() {
       <section className='time'>
         <h1>Meus Jogos</h1>
         {times.map((time, indice) => <Time
+          aoFavoritar={resolverFavorito}
           mudarCor={mudarCor}
           key={indice}
           time={time}

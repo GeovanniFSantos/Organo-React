@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Botao from '../Botao'
-import CampoText from '../CampoText'
+import Campo from '../Campo'
 import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
 
@@ -33,25 +33,25 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
     }
 
     return (
-        <section className='formulario'>
-            <form onSubmit={aoSubmeter}>
+        <section className='formulario-container'>
+            <form className='formulario' onSubmit={aoSubmeter}>
                 <h2>Preencha os dados dos seus jogos favorítos!</h2>
 
-                <CampoText
+                <Campo
                     obrigatorio={true}
                     label="Jogo"
                     placeholder="Digite o nome do jogo"
                     valor={jogo}
                     aoAlterado={valor => setJogo(valor)} />
 
-                <CampoText
+                <Campo
                     obrigatorio={true}
                     label="Gênero(s)"
                     placeholder="Digite o Gênero"
                     valor={genero}
                     aoAlterado={valor => setGenero(valor)} />
 
-                <CampoText
+                <Campo
                     label="Imagem"
                     placeholder="Digite o endereço da imagem"
                     valor={imagem}
@@ -69,21 +69,22 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
                 </Botao>
             </form>
 
-            <form onSubmit={(evento) => {
+            <form className='formulario' onSubmit={(evento) => {
                 evento.preventDefault()
                 cadastrarTime({ jogo: nomeGenero, cor: corTime })
             }}>
                 <h2>Preencha os dados para criar um novo time.</h2>
 
-                <CampoText
+                <Campo
                     obrigatorio
                     label="Nome"
                     placeholder="Digite o nome do Gênero(s)"
                     valor={nomeGenero}
                     aoAlterado={valor => setNomeGenero(valor)} />
 
-                <CampoText
+                <Campo
                     obrigatorio
+                    type='color'
                     label="cor"
                     placeholder="Digite cor do Gênero(s)"
                     valor={corTime}
