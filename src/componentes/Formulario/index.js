@@ -5,44 +5,51 @@ import ListaSuspensa from '../ListaSuspensa'
 import './Formulario.css'
 
 
-const Formulario = (props) => {
+const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
 
-    const [nome, setNome] = useState('');
-    const [cargo, setCargo] = useState('');
+    const [jogo, setJogo] = useState('');
+    const [genero, setGenero] = useState('');
     const [imagem, setImagem] = useState('');
     const [time, setTime] = useState('');
+    const [nomeGenero, setNomeGenero] = useState('');
+    const [corTime, setCorTime] = useState('');
 
-    const aoSalvar = (evento) => {
+    const aoSubmeter = (evento) => {
         evento.preventDefault()
-        props.aoColaboradorCadastrado({
-            nome,
-            cargo,
+        aoCadastrar({
+            jogo,
+            genero,
             imagem,
-            time
+            time,
+            nomeGenero,
+            corTime
         })
-        setNome('')
-        setCargo('')
+        setJogo('')
+        setGenero('')
         setImagem('')
         setTime('')
+        setNomeGenero('')
+        setCorTime('')
     }
 
     return (
         <section className='formulario'>
-            <form onSubmit={aoSalvar}>
-                <h2>Preencha os dados para criar os card do usúario</h2>
+            <form onSubmit={aoSubmeter}>
+                <h2>Preencha os dados dos seus jogos favorítos!</h2>
 
                 <CampoText
                     obrigatorio={true}
-                    label="Nome" placeholder="Digite seu nome"
-                    valor={nome}
-                    aoAlterado={valor => setNome(valor)} />
+                    label="Jogo"
+                    placeholder="Digite o nome do jogo"
+                    valor={jogo}
+                    aoAlterado={valor => setJogo(valor)} />
 
                 <CampoText
                     obrigatorio={true}
-                    label="Cargo"
-                    placeholder="Digite seu cargo"
-                    valor={cargo}
-                    aoAlterado={valor => setCargo(valor)} />
+                    label="Gênero(s)"
+                    placeholder="Digite o Gênero"
+                    valor={genero}
+                    aoAlterado={valor => setGenero(valor)} />
 
                 <CampoText
                     label="Imagem"
@@ -52,12 +59,38 @@ const Formulario = (props) => {
 
                 <ListaSuspensa
                     obrigatorio={true}
-                    label="Time" itens={props.times}
+                    label="Time"
+                    itens={times}
                     valor={time}
                     aoAlterado={valor => setTime(valor)} />
 
                 <Botao>
                     Criar card
+                </Botao>
+            </form>
+
+            <form onSubmit={(evento) => {
+                evento.preventDefault()
+                cadastrarTime({ jogo: nomeGenero, cor: corTime })
+            }}>
+                <h2>Preencha os dados para criar um novo time.</h2>
+
+                <CampoText
+                    obrigatorio
+                    label="Nome"
+                    placeholder="Digite o nome do Gênero(s)"
+                    valor={nomeGenero}
+                    aoAlterado={valor => setNomeGenero(valor)} />
+
+                <CampoText
+                    obrigatorio
+                    label="cor"
+                    placeholder="Digite cor do Gênero(s)"
+                    valor={corTime}
+                    aoAlterado={valor => setCorTime(valor)} />
+
+                <Botao>
+                    Criar um novo time
                 </Botao>
             </form>
         </section>

@@ -14,11 +14,11 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar }) => {
             onClick={deletarColaborador}
         />
         <div className="cabecalho" style={{ backgroundColor: corDeFundo }}>
-            <img src={colaborador.imagem} alt={colaborador.nome} />
+            <img src={colaborador.imagem} alt={colaborador.jogo} />
         </div>
         <div className="rodape">
-            <h4>{colaborador.nome}</h4>
-            <h5>{colaborador.cargo}</h5>
+            <h4>{colaborador.jogo}</h4>
+            <h5>{colaborador.genero}</h5>
         </div>
     </div>
     )
