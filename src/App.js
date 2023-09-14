@@ -45,25 +45,17 @@ function App() {
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'JULIANA AMOASEI',
-      genero: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      jogo: 'DEATH STRANDING',
+      genero: 'Death Stranding é um jogo eletrônico de ação desenvolvido pela Kojima Productions.',
+      imagem: 'https://meups.com.br/wp-content/uploads/2018/12/Death-Stranding.jpg',
       time: times[0].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'DANIEL ARTINE',
-      genero: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[0].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'GUILHERME LIMA',
-      genero: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      jogo: 'THE ELDER SCROLLS',
+      genero: 'The Elder Scrolls é uma série de videojogos do gênero role-playing.',
+      imagem: 'https://cdn.akamai.steamstatic.com/steam/apps/364470/capsule_616x353.jpg?t=1661989129',
       time: times[0].jogo
     },
     {
@@ -77,89 +69,65 @@ function App() {
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'GEOVANNI F SANTOS',
-      genero: 'Desenvolvedor Full Stack Junior',
-      imagem: 'https://github.com/GeovanniFSantos.png',
+      jogo: 'STAR WARS JEDI SURVIVOR',
+      genero: 'Star Wars Jedi: Survivor é um jogo de ação e aventura desenvolvido pela Respawn Entertainmen.',
+      imagem: 'https://www.pcguia.pt/wp-content/uploads/2023/05/star-wars-jedi.jpg',
       time: times[1].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'DANIEL ARTINE',
-      genero: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      jogo: 'DETROIT BECOME HUMAN',
+      genero: 'Detroit: Become Human é um jogo eletrônico produzido pela Quantic Dream.',
+      imagem: 'https://www.gamespot.com/a/uploads/scale_landscape/1197/11970954/3390532-detroitbecomehuman-review-promo-nologo.jpg',
       time: times[1].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'GUILHERME LIMA',
-      genero: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      jogo: 'APEX LEGENDS',
+      genero: 'Apex Legends é um jogo eletrônico free-to-play do gênero battle royale.',
+      imagem: 'https://cdn.cloudflare.steamstatic.com/steam/apps/1172470/capsule_616x353.jpg?t=1694114964',
       time: times[1].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'PAULO SILVEIRA',
-      genero: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-      time: times[1].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'JULIANA AMOASEI',
-      genero: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      jogo: 'RESIDENT EVEL VILLAGE',
+      genero: 'Biohazard: Village é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom.',
+      imagem: 'https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png',
       time: times[2].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'DANIEL ARTINE',
-      genero: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      jogo: 'THE LAST OF US',
+      genero: 'The Last of Us é uma franquia de jogos eletrônicos de ação-aventura e survival horror.',
+      imagem: 'https://sm.ign.com/ign_br/screenshot/default/the-last-of-us-serie-hbo_9uy5.png',
       time: times[2].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'GUILHERME LIMA',
-      genero: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      jogo: 'OUTLAST',
+      genero: 'O inferno é um experimento ao qual você não pode sobreviver em Outlast.',
+      imagem: 'https://image.api.playstation.com/vulcan/coal-image-prod/cdn/molt/ALL/201905/MOLT2276_ZZ/rUhQGewc1LDM3PMCNg.png',
       time: times[2].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'PAULO SILVEIRA',
-      genero: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
-      time: times[2].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'JULIANA AMOASEI',
-      genero: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      jogo: 'CYBERPUNK 2077',
+      genero: 'Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido pela CD Projekt Red.',
+      imagem: 'https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/b9ea2dc46d95cf9fa3f77209e27ae7a6488368f1-1920x1080.jpg',
       time: times[3].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'DANIEL ARTINE',
-      genero: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[3].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'GUILHERME LIMA',
-      genero: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      jogo: 'FALLOUT',
+      genero: 'Fallout é uma série de jogos de RPG criada por Tim Cain, desenvolvida por vários estúdios.',
+      imagem: 'https://m.media-amazon.com/images/I/913m4BOW-NL._AC_UF1000,1000_QL80_.jpg',
       time: times[3].jogo
     },
     {
@@ -173,23 +141,15 @@ function App() {
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'JULIANA AMOASEI',
-      genero: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      jogo: 'RESIDENT EVEL 4',
+      genero: 'Conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror.',
+      imagem: 'https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png',
       time: times[4].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'DANIEL ARTINE',
-      genero: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[4].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'THE LAST OF US',
+      jogo: 'THE LAST OF US PART 2',
       genero: 'Em uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta.',
       imagem: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFrnKGXGTmcusfWp8W42ZosoTU0155pl2CKsMw3ZiYEY74uKNt',
       time: times[4].jogo
@@ -197,41 +157,25 @@ function App() {
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'PAULO SILVEIRA',
-      genero: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      jogo: 'THE WALKING DEAD',
+      genero: 'The Walking Dead é uma série de jogos eletrônicos de aventura gráfica.',
+      imagem: 'https://image.api.playstation.com/cdn/UP2026/CUSA01019_00/xFrCV7HSs5qKhuHx8L0kggyG65XSHF8k.png',
       time: times[4].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'JULIANA AMOASEI',
-      genero: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      jogo: 'FIFA 23',
+      genero: 'FIFA 23 é um jogo eletrônico de simulação de futebol desenvolvido pela Electronic Arts.',
+      imagem: 'https://image.api.playstation.com/vulcan/ap/rnd/202306/1702/3f51244d2b55a95d5621a96c3a76b7fd08ea994dccd6af28.png',
       time: times[5].jogo
     },
     {
       id: uuidv4(),
       favorito: false,
-      jogo: 'DANIEL ARTINE',
-      genero: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[5].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'GUILHERME LIMA',
-      genero: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
-      time: times[5].jogo
-    },
-    {
-      id: uuidv4(),
-      favorito: false,
-      jogo: 'PAULO SILVEIRA',
-      genero: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      jogo: 'UNDERGROUND 2',
+      genero: 'Need For Speed é um jogo de corrida de 2004 desenvolvido pela EA.',
+      imagem: 'https://meups.com.br/wp-content/uploads/2022/05/Need-For-Speed-Underground-2.jpg',
       time: times[5].jogo
     },
   ]
